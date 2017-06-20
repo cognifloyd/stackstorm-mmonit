@@ -1,6 +1,6 @@
 ---
 name: list_status_hosts
-runner_type: run-python
+runner_type: python-script
 description: Returns the current status of all hosts registered in M/Monit.
 enabled: true
 entry_point: list_status_hosts.py

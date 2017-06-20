@@ -1,6 +1,6 @@
 ---
 name: summary_status
-runner_type: run-python
+runner_type: python-script
 description: Returns a status summary of all hosts.
 enabled: true
 entry_point: summary_status.py

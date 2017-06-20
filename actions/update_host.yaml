@@ -1,6 +1,6 @@
 ---
 name: update_host
-runner_type: run-python
+runner_type: python-script
 description: Updates the host settings in the M/Monit database.
 enabled: true
 entry_point: update_host.py

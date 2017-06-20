@@ -1,6 +1,6 @@
 ---
 name: session_get
-runner_type: run-python
+runner_type: python-script
 description: Returns the session attribute matching the session_key argument. If no keys are specified, all stored attributes in the session are returned.
 enabled: true
 entry_point: session_get.py

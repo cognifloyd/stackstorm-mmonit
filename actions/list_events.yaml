@@ -1,6 +1,6 @@
 ---
 name: list_events
-runner_type: run-python
+runner_type: python-script
 description: Returns a list of events stored in M/Monit.
 enabled: true
 entry_point: list_events.py

@@ -61,3 +61,7 @@ to `/opt/stackstorm/configs/mmonit.yaml` and edit as required.
 * ``host`` - mmonit host to connect to.
 * ``username`` - Username to connect to mmonit.
 * ``password`` - Password to connect to mmonit.
+
+**Note** : When modifying the configuration in `/opt/stackstorm/configs/` please
+           remember to tell StackStorm to load these new values by running
+           `st2ctl reload --register-configs`
