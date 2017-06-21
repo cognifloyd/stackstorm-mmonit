@@ -1,6 +1,6 @@
 ---
 name: action_host
-runner_type: run-python
+runner_type: python-script
 description: Performs the specified action for the selected host services.
 enabled: true
 entry_point: action_host.py

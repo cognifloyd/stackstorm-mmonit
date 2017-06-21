@@ -1,6 +1,6 @@
 ---
 name: get_event
-runner_type: run-python
+runner_type: python-script
 description: Returns details for a specific event.
 enabled: true
 entry_point: get_event.py

@@ -1,6 +1,6 @@
 ---
 name: get_uptime_hosts
-runner_type: run-python
+runner_type: python-script
 description: Returns services uptime for a particular host.
 enabled: true
 entry_point: get_uptime_hosts.py

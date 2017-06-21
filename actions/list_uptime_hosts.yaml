@@ -1,6 +1,6 @@
 ---
 name: list_uptime_hosts
-runner_type: run-python
+runner_type: python-script
 description: Returns hosts uptime overview. If a custom range is used, the difference between datefrom and dateto should be in minutes, not in seconds since 1 minute is the lowest data resolution in M/Monit.
 enabled: true
 entry_point: list_uptime_hosts.py
