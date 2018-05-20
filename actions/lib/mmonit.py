@@ -23,7 +23,3 @@ class MmonitBaseAction(Action):
     def logout(self):
         self.session.get("{}/login/logout.csp".format(self.url))
         self.session.close()
-
-    def run(self, **kwargs):
-        # pylint: disable=notimplemented-raised
-        raise NotImplemented("You need to override this in your class.")

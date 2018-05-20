@@ -1,10 +1,10 @@
 ---
 ref: mmonit
 name : mmonit
-description : st2 content pack containing mmonit integrations
+description : mmonit integrations
 keywords:
   - monitoring
   - mmonit
-version: 0.4.1
+version: 0.4.2
 author : Itxaka Serrano Garcia
 email : itxakaserrano@gmail.com

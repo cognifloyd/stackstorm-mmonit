@@ -6,7 +6,7 @@ class MmonitSessionPut(MmonitBaseAction):
         # Try to protect against wrongly input and fail fast if so
         try:
             k, v = attribute.split(":")
-        except:
+        except Exception:
             error = ("The key/value pair {} don't seem to follow the key:value format".format(
                      attribute))
             raise Exception(error)
