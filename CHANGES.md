@@ -1,5 +1,9 @@
 # Change Log
 
+# 0.4.3
+
+- Remove `host_id` as a parameter to fix the list hosts action
+
 # 0.4.2
 
 - Minor linting fix
